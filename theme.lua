@@ -5,7 +5,7 @@
 --          By Adrian C. (anrxc)        --
 ------------------------------------------
 
--- local themes_path = require("gears.filesystem").get_themes_dir()
+--local themes_path = require("gears") gears.filesystem.get_themes_dir()
 local themes_path = "~/.config/awesome/themes/"
 local theme_assets = require("beautiful.theme_assets")
 local xresources = require("beautiful.xresources")
