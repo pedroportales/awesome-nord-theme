@@ -5,7 +5,8 @@
 --          By Adrian C. (anrxc)        --
 ------------------------------------------
 
-local themes_path = require("gears.filesystem").get_themes_dir()
+-- local themes_path = require("gears.filesystem").get_themes_dir()
+local themes_path = "~/.config/awesome/themes/"
 local theme_assets = require("beautiful.theme_assets")
 local xresources = require("beautiful.xresources")
 local dpi = xresources.apply_dpi
@@ -169,7 +170,7 @@ theme.titlebar_maximized_button_normal_inactive = themes_path .. "nord/titlebar/
 -- }}}
 -- }}}
 
--- theme.taglist_text_font = "JetBrains Mono 20"
+theme.taglist_text_font = "JetBrains Mono 20"
 -- theme.taglist_text_empty    =  {"","","","","","","","",""}
 -- theme.taglist_text_occupied =  {"","","","","","","","",""}
 -- theme.taglist_text_focused  = {"","","","","","","","",""}
