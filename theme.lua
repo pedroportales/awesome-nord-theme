@@ -14,7 +14,7 @@ local dpi = xresources.apply_dpi
 
 -- {{{ Main
 local theme = {}
-theme.wallpaper   = themes_path.."wallpaper.jpg"
+theme.wallpaper   = themes_path.."nord/wallpaper.jpg"
 -- }}}
 
 -- {{{ Styles
