@@ -170,16 +170,16 @@ theme.titlebar_maximized_button_normal_inactive = themes_path .. "nord/titlebar/
 -- }}}
 -- }}}
 
-theme.taglist_text_font = "JetBrains Mono 20"
+theme.taglist_text_font = "JetBrains Mono 15"
 -- theme.taglist_text_empty    =  {"","","","","","","","",""}
 -- theme.taglist_text_occupied =  {"","","","","","","","",""}
 -- theme.taglist_text_focused  = {"","","","","","","","",""}
 -- theme.taglist_text_urgent   = {"","","","","","","","",""}
 
-theme.taglist_text_empty    = {"", "", "", "", "", "", "", "", ""}
-theme.taglist_text_occupied = {"", "", "", "", "", "", "", "", ""}
-theme.taglist_text_focused  = {"", "", "", "", "", "", "", "", ""}
-theme.taglist_text_urgent   = {"", "", "", "", "", "", "", "", ""}
+theme.taglist_text_empty    = {"  ", " ", " ", " ", " ", " ", " ", " ", " "}
+theme.taglist_text_occupied = {"  ", " ", " ", " ", " ", " ", " ", " ", " "}
+theme.taglist_text_focused  = {"  ", " ", " ", " ", " ", " ", " ", " ", " "}
+theme.taglist_text_urgent   = {"  ", " ", " ", " ", " ", " ", " ", " ", " "}
 
 -- theme.taglist_font = "Roboto 12"
 theme.taglist_bg_focus = theme.bg_normal
